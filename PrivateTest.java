@@ -7,6 +7,8 @@ import java.lang.reflect.Field;
  * @ClassName PrivateTest
  * @Version 1.0
  **/
+
+
 class PrivateTestClass{
     private String field1;
     public PrivateTestClass(String field1){
