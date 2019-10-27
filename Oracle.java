@@ -8,7 +8,7 @@ import java.sql.*;
  * @Version 1.0
  **/
 public class Oracle {
-    public static void main(String[] args){
+    public static void main(String args[]){
         try {
             String strurl = "jdbc:oracle:thin:@localhost:1521:tiger";
             Class.forName("oracle.jdbc.driver.OracleDriver");

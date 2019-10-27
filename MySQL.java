@@ -11,7 +11,7 @@ import java.sql.Statement;
  * @Version 1.0
  **/
 public class MySQL {
-    public static void main(String[] args){
+    public static void main(String args[]){
         try {
             String strurl = "jdbc:mysql://localhost:3306/test";
             Class.forName("com.mysql.jdbc.Driver");
